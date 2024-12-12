@@ -29,16 +29,16 @@ WebUI.setText(findTestObject('Object Repository/Page_ParaBank  Register for Free
     'andi')
 
 WebUI.setText(findTestObject('Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Last Name_customer.lastName'), 
-    'adni')
+    'andi')
 
 WebUI.setText(findTestObject('Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Address_customer.address.street'), 
     'jl setapak sriwedari')
 
 WebUI.setText(findTestObject('Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_City_customer.address.city'), 
-    'surakarta')
+    'andi')
 
 WebUI.setText(findTestObject('Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_State_customer.address.state'), 
-    'jawa tengah')
+    'andi')
 
 WebUI.setText(findTestObject('Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Zip Code_customer.address.zipCode'), 
     '99998')
@@ -51,7 +51,7 @@ WebUI.setText(findTestObject('Object Repository/Page_ParaBank  Register for Free
 
 //username must be unique
 WebUI.setText(findTestObject('Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Username_customer.username'), 
-    'andi003')
+    'andi')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Password_customer.password'), 
     'A2FRRF0dkTY=')
