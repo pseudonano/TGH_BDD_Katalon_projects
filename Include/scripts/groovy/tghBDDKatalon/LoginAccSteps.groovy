@@ -36,8 +36,8 @@ public class LoginAccSteps {
 	public void user_redirect_to_dashboard_and_logout() {
 		WebUI.verifyTextPresent('Welcome', false)
 		
-		WebUI.click(findTestObject('Object Repository/Page_ParaBank  Customer Created/a_Log Out'))
-		
-		WebUI.closeBrowser()
+//		WebUI.click(findTestObject('Object Repository/Page_ParaBank  Customer Created/a_Log Out'))
+//		
+//		WebUI.closeBrowser()
 	}
 }
