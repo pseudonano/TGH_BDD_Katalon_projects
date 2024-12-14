@@ -23,4 +23,4 @@ Feature: Test Register Account Functionality
     When user click register hyperlink
     And user fill all required form
     And user click register button
-    Then user logout
+    Then user successfully created

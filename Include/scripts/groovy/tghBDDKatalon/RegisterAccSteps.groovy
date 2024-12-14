@@ -70,13 +70,11 @@ public class RegisterAccSteps {
 	public void user_click_register_button() {
 		WebUI.click(findTestObject('Object Repository/Page_ParaBank  Register for Free Online Acc_dbf84b/input_Confirm_button'))
 
-		WebUI.verifyTextPresent('Welcome', false)
+		
 	}
 
-	@Then("user logout")
-	public void user_logout() {
-		WebUI.click(findTestObject('Object Repository/Page_ParaBank  Customer Created/a_Log Out'))
-
-		WebUI.closeBrowser()
+	@Then("user successfully created")
+	public void user_successfully_created() {
+		WebUI.verifyTextPresent('Welcome', false)
 	}
 }

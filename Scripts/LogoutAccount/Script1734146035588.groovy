@@ -17,17 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Object Repository/Page_ParaBank  Customer Created/a_Log Out'))
 
-WebUI.navigateToUrl('https://parabank.parasoft.com/parabank/index.htm')
-
-WebUI.verifyTextPresent('Customer Login', false)
-
-WebUI.setText(findTestObject('Object Repository/Page_ParaBank  Administration/input_Username_username'),'andi')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Page_ParaBank  Administration/input_Password_password'),'A2FRRF0dkTY=')
-
-WebUI.click(findTestObject('Object Repository/Page_ParaBank  Administration/input_Password_button'))
-
-WebUI.verifyTextPresent('Welcome', false)
-
+WebUI.closeBrowser()

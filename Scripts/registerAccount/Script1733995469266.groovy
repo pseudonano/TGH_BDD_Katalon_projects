@@ -63,7 +63,5 @@ WebUI.click(findTestObject('Object Repository/Page_ParaBank  Register for Free O
 
 WebUI.verifyTextPresent('Welcome', false)
 
-WebUI.click(findTestObject('Object Repository/Page_ParaBank  Customer Created/a_Log Out'))
 
-WebUI.closeBrowser()
 

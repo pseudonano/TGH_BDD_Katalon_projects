@@ -40,6 +40,3 @@ WebUI.selectOptionByIndex(findTestObject('Object Repository/Page_ParaBank  Open 
 
 WebUI.click(findTestObject('Object Repository/Page_ParaBank  Open Account/input_What type of Account would you like to open_button'))
 
-WebUI.click(findTestObject('Object Repository/Page_ParaBank  Customer Created/a_Log Out'))
-
-WebUI.closeBrowser()

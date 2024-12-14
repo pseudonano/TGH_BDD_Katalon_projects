@@ -24,4 +24,4 @@ Feature: Test Login Account Functionality
     Given login page
     When user input username and password
     And user click login button 
-    Then user redirect to dashboard and logout
+    Then user redirect to dashboard
